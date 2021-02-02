@@ -7,6 +7,7 @@ class BooksController < ApplicationController
 
   def index
     @books = Book.all
+    # _form.html.erbの新規投稿用
     @book = Book.new
   end
 
